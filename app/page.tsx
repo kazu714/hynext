@@ -20,7 +20,7 @@ export default function Page() {
         <div className="d-flex justify-content-around bd-highlight">
           {blogTopics.map((topic) => {
             return (
-              <div className="ms-1 me-1">
+              <div className="ms-1 me-1" key={topic.text}>
                 <Image alt="" src={topic.src} width={200} height={100} />
                 <p className='text-center'>田舎の味方</p>
               </div>
