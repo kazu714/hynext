@@ -2,17 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-input[type='number'] {
-  -moz-appearance: textfield;
-  appearance: textfield;
-}
 
-input[type='number']::-webkit-inner-spin-button {
-  -webkit-appearance: none;
+.header_title{
+  padding: 20px ;
+  font-size: 30px;
   margin: 0;
 }
-
-input[type='number']::-webkit-outer-spin-button {
-  -webkit-appearance: none;
+.company_name{
+  padding-top: 20px;
   margin: 0;
+}
+hr{
+  margin: 0;
+}
+.center{
+  margin: auto;
+}
+
+nav{
+  width: 200px;
+  height: 100vh;
+}
+
+.sticky{
+  position: sticky;
+  top: 0px;
+}
+
+.hover-gray:hover{
+  background-color: #f1f1f1;
+}
+
+main{
+  width: 100%;
+  
+}
+
+
+.right{
+  width: 200px;
+}
+
+.w-30{
+  width: 30%;
+}
+.w-45{
+  width: 45%;
 }
